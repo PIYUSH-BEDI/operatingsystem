@@ -1,0 +1,49 @@
+1. pwd — To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash(  ). The user directory is usually something like homeusername.
+
+2. ls — Use the ls command to know what files are in the directory you are in. You can see
+all the hidden files by using the command “ls -a”
+
+3. cd — Use the cd command to go to a directory. For example, if you are in the home folder, and you want to go to the downloads folder, then you can type in “cd Downloads”.
+
+4. mkdir & rmdir — Use the mkdir command when you need to create a folder or a
+directory. For example, if you want to make a directory called “DIY”, then you can type “mkdir DIY”. Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory. To delete a directory containing files, use rm.
+
+5. rm - Use the rm command to delete files and directories. Use rm -r to delete just the directory. It deletes both the folder and the files it contains when using only the rm command.
+
+6. touch — The touch command is used to create a file. It can be anything, from an empty
+txt file to an empty zip file. For example, “touch new.txt”.
+
+7. man & --help — To know more about a command and how to use it, use the man command. It shows the manual pages of the command. For example, “man cd” shows the manual pages of the cd command
+
+8. cp — Use the cp command to copy files through the command line. It takes two arguments The first is the location of the file to be copied, the second is where to copy.
+
+9. mv — Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use “mv text new”. It takes the two arguments, just like the cp command.
+
+10. locate — The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.
+
+11. echo — The echo command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in, “echo hello, my name is alok  new.txt”.
+
+12. cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
+
+13. nano, vi, jed — nano and vi are already installed text editors in the Linux command line. The nano command is a good text editor that denotes keywords with color and can recognize most languages.
+ 
+14. sudo — A widely used command in the Linux command line, sudo stands for SuperUser Do. So, if you want any command to be done with administrative or root privileges, you can use the sudo command.
+
+15. df — Use the df command to see the available disk space in each of the partitions in your
+system.
+
+16. tar — Use tar to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like .tar, .tar.gz, .tar.bz2,etc.
+
+17. zip, unzip — Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
+
+18. uname — Use uname to show the information about the system your Linux distro is
+running. Using the command “uname -a” prints most of the information about the system.
+
+19. apt-get — Use apt to work with packages in the Linux command line. Use apt-get to install packages. This requires root privileges, so use the sudo command with it.
+
+20. chmod — Use chmod to make a file executable and to change the permissions granted to it in Linux.
+
+21. hostname — Use hostname to know your name in your host or network. Basically, it
+displays your hostname and IP address. Just typing “hostname” gives the output.
+
+22. ping — Use ping to check your connection to a server.

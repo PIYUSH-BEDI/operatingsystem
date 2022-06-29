@@ -1,0 +1,55 @@
+Program 1.sh
+#!/bin/sh
+
+echo "Enter Your Name : "
+
+read name #It take input from user echo "Hello, $name. Welcome to SRMIST"
+
+Program 2.sh
+# Program for Fibonacci # Series
+
+# Static input fo N N=6
+
+# First Number of the # Fibonacci Series a=0
+
+# Second Number of the # Fibonacci Series
+b=1
+echo "The Fibonacci series is : " for (( i=0; i<N; i++ ))
+do
+
+
+
+done
+echo -n "$a " fn=$((a + b)) a=$b
+b=$fn
+# End of for loop
+
+Program 3.sh
+#!usr/bin/env bash file="temp.txt"
+while read -r line; do echo -e "$line\n"
+done <$file
+Program 4.sh
+#!/bin/usr/env bash a="Hello"
+echo $a
+
+Program 5.sh
+#!/bin/sh NAME[0]="ARUN"
+NAME[1]="Vignesh" NAME[2]="Mahnaz" NAME[3]="Ayan" NAME[4]="Daisy"
+echo "First Index: ${NAME[0]}" echo "Second Index: ${NAME[1]}"
+
+
+Program 6.sh
+#!/bin/sh a=10
+b=20
+if [ $a == $b ] then
+echo "a is equal to b" elif [ $a -gt $b ]
+then
+echo "a is greater than b" elif [ $a -lt $b ]
+then
+echo "a is less than b" else
+echo "None of the condition met"
+fi
+
+Program 7.sh
+for var in 0 1 2 3 4 5 6 7 8 9 do
+echo $var done
